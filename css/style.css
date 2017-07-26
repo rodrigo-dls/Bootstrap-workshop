@@ -25,4 +25,9 @@ header {
 
 .portfolio-caption {
 	background: white;
+	padding: 25px;
+}
+
+.portfolio-caption h3 {
+		margin: 0;
 }
