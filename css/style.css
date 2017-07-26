@@ -1,0 +1,28 @@
+header {
+	background-image: url("../images/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+  background-size: cover;
+}
+
+.intro-text {
+	padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+.intro-text h2 {
+	color: white;
+}
+
+.bg-light-gray {
+	background: #eee;
+}
+
+.portfolio-galery li {
+	padding: 0;
+}
+
+.portfolio-caption {
+	background: white;
+}
