@@ -4,6 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Agency - Start Bootstrap Theme</title>
 
+	<!-- Brand Title Font -->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -12,30 +18,37 @@
 
 <body>
 <!-- Navbar Section -->
-<nav>
-	<div class="container">
-		<div class="row">
-			<a class="col-md-2" href="#">Start Bootstrap</a>
-			<div class="col-md-6 col-md-offset-3">
-				<div class="row">
-					<ul>
-						<li class="col-md-2"><a href="#services">SERVICES</a></li>
-						<li class="col-md-2"><a href="#portfolio">PORTFOLIO</a></li>
-						<li class="col-md-2"><a href="#about">ABOUT</a></li>
-						<li class="col-md-2"><a href="#team">TEAM</a></li>
-						<li class="col-md-2"><a href="#contact">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+<nav class="navbar navbar-default navbar-fixed-top nav-style">
+	<div class="container"> 
+		<!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+    </div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#team">TEAM</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+    </div><!-- /.navbar-collapse -->
+	</div> <!-- /.container --> 
 </nav>
+
 <!-- Header Section -->
 <header>
 	<div class="container text-center intro-text">
-		<div class="col-md-12"><h2>Welcome To Our Studio!</h2></div>
-		<div class="col-md-12"><h2>IT'S NICE TO MEET YOU</h2></div>
-		<button class="col-md-2 col-md-offset-5 btn btn-default" type="submit">TELL ME MORE</button>
+		<div class="col-md-12 header-line-one">Welcome To Our Studio!</div>
+		<div class="col-md-12 header-line-two">IT'S NICE TO MEET YOU</div>
+		<button class="col-md-2 col-md-offset-5 btn btn-header" type="submit">TELL ME MORE</button>
 	</div>
 </header>
 <!-- Services Section -->
@@ -48,7 +61,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-circle fa-stack-2x services-icon-style"></i>
 					<i class="fa fa-shopping-cart fa-inverse fa-stack"></i>
 				</span>
 				<h4>E-Commerce</h4>
@@ -56,7 +69,7 @@
 			</div>
 			<div class="col-md-4">
 				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-circle fa-stack-2x services-icon-style"></i>
 					<i class="fa fa-laptop fa-inverse fa-stack"></i>
 				</span>
 				<h4>Responsive Design</h4>
@@ -64,7 +77,7 @@
 			</div>
 			<div class="col-md-4">
 				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-circle fa-stack-2x services-icon-style"></i>
 					<i class="fa fa-lock fa-inverse fa-stack"></i>
 				</span>
 				<h4>Web Security</h4>
@@ -75,48 +88,50 @@
 </section>
 <!-- Portfolio Section -->
 <section id="portfolio" class="bg-light-gray">
-	<div class="container text-center">
+	<div class="container">
 		<div class="row">
-			<h2>PORTFOLIO</h2>
-			<h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+			<div class="col-lg-12 text-center">
+				<h2>PORTFOLIO</h2>
+				<h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+			</div>
 		</div>
 		<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<img src="images/portfolio-1.png" class="img-responsive center-block" alt="Round Icons">
 					<div class="portfolio-caption">
 						<h3>Round Icons</h3>
 						<h4>Graphic Design</h4>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<img src="images/portfolio-2.png" class="img-responsive center-block" alt="Startup Framework">
 					<div class="portfolio-caption">
 						<h3>Startup Framework</h3>
 						<h4>Website Design</h4>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<img src="images/portfolio-3.png" class="img-responsive center-block" alt="Treehouse">
 					<div class="portfolio-caption">
 						<h3>Treehouse</h3>
 						<h4>Website Design</h4>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<img src="images/portfolio-4.png" class="img-responsive center-block" alt="Golden">
 					<div class="portfolio-caption">
 						<h3>Golden</h3>
 						<h4>Website Design</h4>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<img src="images/portfolio-5.png" class="img-responsive center-block" alt="Escape">
 					<div class="portfolio-caption">
 						<h3>Escape</h3>
 						<h4>Website Design</h4>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<img src="images/portfolio-6.png" class="img-responsive center-block" alt="Dream">
 					<div class="portfolio-caption">
 						<h3>Dream</h3>
@@ -126,6 +141,21 @@
 		</div>
 	</div>
 </section>
-
+<!-- About Section -->
+<section>
+	
+</section>
+<!-- Team Section -->
+<section>
+	
+</section>
+<!-- Contact Section -->
+<section>
+	
+</section>
+<!-- Footer section -->
+<footer>
+	
+</footer>
 </body>
 </html>
