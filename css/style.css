@@ -26,9 +26,8 @@
 }
 
 /*Header Section*/
-
 header {
-	background-image: url("../images/header-bg.jpg");
+	background-image: url("../images/header/header-bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -73,18 +72,12 @@ header .intro-text .header-line-two {
     font-weight: 700;
 }
 
-/*Other Styles*/
-.bg-light-gray {
-	background: #eee;
-}
-
 /*Services Section*/
-
 .services-icon-style{
 	color: #fed136;
 }
-/*Portfolio Section*/
 
+/*Portfolio Section*/
 .portfolio-galery li {
 	padding: 0;
 }
@@ -96,4 +89,36 @@ header .intro-text .header-line-two {
 
 .portfolio-caption h3 {
 		margin: 0;
+}
+
+/*About Section*/
+.timeline:before {
+	content: "";
+	width: 2px;
+  position: absolute;
+  background-color: #f1f1f1;
+  height: 100%;
+  margin-left: 75px;
+  z-index: -2;
+}
+
+.timeline .timeline-image {
+	border: 7px solid #f1f1f1;
+  width: 150px;
+  height: 150px;
+  background-color: #fed136;
+  color: #fff;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.timeline .timeline-image h4 {
+	font-size: 18px;
+	margin-top: 30px;
+	line-height: 26px;
+}
+
+/*Other Styles*/
+.bg-light-gray {
+	background: #eee;
 }
